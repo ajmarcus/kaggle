@@ -20,7 +20,7 @@ sampleSub <- read.csv(file="data/sample_submission_file.csv",
 
 train <- read.delim(file="data/train.tsv",
                     stringsAsFactors=FALSE,
-                    fill=FALSE, nrows=200)
+                    fill=FALSE)
 
 test <- read.delim(file="data/test.tsv",
                    stringsAsFactors=FALSE,
