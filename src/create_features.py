@@ -10,7 +10,15 @@ real_word = re.compile('[a-z]+')
 header = ['num_sentences','num_unique_words'] 
 result = ['NA','NA']
 
-print "\t".join(header)
+def uni(input):
+  r = ''
+  try:
+    r = unicode(input).encode('ascii', 'ignore')
+  except Exception, e:
+    raise e
+  return r
+
+print "\t".join(map(uni, header))
 
 for line in fileinput.input():
   sentences = punkt.tokenize(line)
@@ -21,5 +29,5 @@ for line in fileinput.input():
   # Number of unique words
   result[1] = len(unique_words)
 
-  print "\t".join(result)
+  print "\t".join(map(uni, result))
 
