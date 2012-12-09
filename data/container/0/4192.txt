@@ -1,0 +1,1 @@
+The feautures of the settings affect the cyclist if it is just between buildings and cars the cyclist won't be able to break free and bicycle freely. So it can affect him.
