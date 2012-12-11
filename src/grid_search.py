@@ -26,10 +26,10 @@ logging.basicConfig(level=logging.INFO,
 
 ###############################################################################
 # Load some categories from the training set
-categories = ['1','2','3']
+#categories = ['1','2','3']
 
 # Uncomment the following to do the analysis on all the categories
-#categories = None
+categories = None
 
 print "Loading essay data:"
 print categories
