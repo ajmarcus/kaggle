@@ -1,3 +1,7 @@
+# Example found here: http://scikit-learn.org/0.11/_downloads/document_classification_20newsgroups2.py
+
+# Edited by Ariel Marcus for use in Kaggle Competition as a part of STATW4242
+
 # Author: Peter Prettenhofer <peter.prettenhofer@gmail.com>
 #         Olivier Grisel <olivier.grisel@ensta.org>
 #         Mathieu Blondel <mathieu@mblondel.org>
