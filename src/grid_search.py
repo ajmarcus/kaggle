@@ -2,10 +2,15 @@
 
 print __doc__
 
+# Example found here: http://scikit-learn.org/0.12/_downloads/grid_search_text_feature_extraction.py
+
+# Edited by Ariel Marcus for use in Kaggle Competition as a part of STATW4242
+
 # Author: Olivier Grisel <olivier.grisel@ensta.org>
 #         Peter Prettenhofer <peter.prettenhofer@gmail.com>
 #         Mathieu Blondel <mathieu@mblondel.org>
 # License: Simplified BSD
+
 
 from pprint import pprint
 from time import time
